@@ -1,0 +1,111 @@
+/* Цвет основного текста #212121 */
+/* Вторичный цвет текста #757575 */
+/* Основной цвет макета #FFFFFF */
+/* Вторичный цвет фона #F5F4FA */
+/* Акцент #2196F3 */
+/* Цвет футера #2F303A */
+
+:root{
+    --primary-text-color: #212121;
+    --second-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+}
+
+.body{
+    background-color:var(--primary-white-color);
+    color: var(--second-text-color);
+}
+
+.list{
+    list-style: none;
+}
+/* HEADER */
+/* Logo*/
+.logo{
+color: var(--accent-color);
+}
+
+.second-color{
+    color: var(--primary-text-color);
+}
+
+/* Nav */
+.nav .nav-link{
+    color: var(--primary-text-color);
+    }
+
+.nav .nav-link:hover, 
+.nav .nav-link:focus {
+    color: var(--accent-color);
+}
+
+/* Contats */
+.contacts .contacts-link{
+    color:var(--second-text-color);
+}
+
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus{
+    color:var(--accent-color)
+}
+
+/* MAIN */
+
+/* Hero */
+
+.hero .hero-title{
+    color: var(--primary-white-color);
+}
+.btn-primary{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* Features */
+.section-title{
+    color:var(--primary-text-color);
+}
+
+.features-title{
+    color:var(--primary-text-color);
+}
+
+/* Our team */
+.section-bcg{
+    background-color: #F5F4FA;
+}
+
+.section-bcg .title{
+    color: var(--primary-text-color);
+}
+
+.team .team-title{
+    color: var(--primary-text-color);
+}
+
+/* Footer */
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-logo{
+    color: var(--accent-color);
+}
+
+.footer-logo .second-color{
+    color: var(--primary-white-color);
+}
+
+.footer .footer-addres{
+    color: var(--primary-white-color);
+}
+
+.footer .contacts-link{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .contacts-link:hover,
+.footer .contacts-link:focus{
+    color: var(--accent-color);
+}
