@@ -20,6 +20,7 @@
 .list{
     list-style: none;
 }
+/* INDEX */
 /* HEADER */
 /* Logo*/
 .logo{
@@ -109,3 +110,11 @@ color: var(--accent-color);
 .footer .contacts-link:focus{
     color: var(--accent-color);
 }
+
+/* PORTFOLIO */
+/* main */
+
+.works .works-title{
+    color:var(--primary-text-color)
+}
+
