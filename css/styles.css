@@ -20,7 +20,7 @@
 }
 
 .button{
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .list{
@@ -45,6 +45,9 @@ line-height: 1.2;
 /* Nav */
 .nav .nav-link{
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
     }
@@ -62,6 +65,11 @@ line-height: 1.2;
 .contacts .contacts-link{
     color:var(--second-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
 }
 
 .contacts .contacts-link:hover,
@@ -73,6 +81,16 @@ line-height: 1.2;
 
 /* Hero */
 
+.hero{
+    background-color: #2F303A;
+}
+
+.hero .button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.14;
+    letter-spacing: 0.06em;
+}
 .hero .hero-title{
     color: var(--primary-white-color);
     font-weight: 900;
@@ -168,6 +186,18 @@ line-height: 1.2;
 .btn-secondary{
     color: var(--primary-text-color);
     background-color: #F5F4FA;    
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.examples .button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
 }
 
 .works .works-title{
