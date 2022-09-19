@@ -185,7 +185,8 @@ line-height: 1.2;
 
 .btn-secondary{
     color: var(--primary-text-color);
-    background-color: #F5F4FA;    
+    background-color: #F5F4FA;
+       
 }
 
 .btn-secondary:hover,
@@ -194,7 +195,7 @@ line-height: 1.2;
     background-color: var(--accent-color);
 }
 
-.examples .button{
+.examples .btn-secondary{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
